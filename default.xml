@@ -51,6 +51,13 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/sony/honami" name="android_device_sony_honami" remote="omnirom" revision="android-4.4" />
+  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" remote="omnirom" revision="android-4.4" />
+  <project path="device/sony/common" name="android_device_sony_common" remote="omnirom" revision="android-4.4" />
+  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="omnirom" revision="android-4.4" />
+  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" remote="omnirom" revision="android-4.4" />
+  <project path="device/sony/fusion3-common" name="android_device_sony_fusion3-common" remote="omnirom" revision="android-4.4" />
+  <project path="device/sony/blue-common" name="android_device_sony_blue-common" remote="omnirom" revision="android-4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
@@ -301,6 +308,7 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="omnirom" revision="android-4.4" />
   <project path="hardware/ril" name="android_hardware_ril" remote="omnirom" revision="android-4.4" />
+  <project path="hardware/libhardware/legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="omnirom" revision="android-4.4" />
@@ -450,14 +458,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="vendor/omni" name="android_vendor_omni" remote="omnirom" revision="android-4.4" />
   <project path="packages/apps/MonthCalendarWidget" name="android_packages_apps_MonthCalendarWidget" remote="omnirom" revision="android-4.4" />
-  <project path="device/sony/honami" name="android_device_sony_honami" remote="omnirom" revision="android-4.4" />
-  <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" remote="omnirom" revision="android-4.4" />
-  <project path="device/sony/common" name="android_device_sony_common" remote="omnirom" revision="android-4.4" />
-  <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="omnirom" revision="android-4.4" />
   <project path="kernel/sony/msm8974" name="android_kernel_sony_msm8974" remote="omnirom" revision="android-4.4" />
   <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" remote="github" revision="cm-11.0" />
-  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" remote="omnirom" revision="android-4.4" />
-  <project path="device/sony/fusion3-common" name="android_device_sony_fusion3-common" remote="omnirom" revision="android-4.4" />
-  <project path="hardware/libhardware/legacy" name="android_hardware_libhardware_legacy" remote="omnirom" revision="android-4.4" />
-  <project path="device/sony/blue-common" name="android_device_sony_blue-common" remote="omnirom" revision="android-4.4" />
 </manifest>
