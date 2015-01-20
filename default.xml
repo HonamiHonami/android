@@ -55,7 +55,7 @@
   <project path="device/sony/rhine-common" name="android_device_sony_rhine-common" remote="omnirom" revision="android-4.4" />
   <project path="device/sony/common" name="android_device_sony_common" remote="omnirom" revision="android-4.4" />
   <project path="device/sony/qcom-common" name="android_device_sony_qcom-common" remote="omnirom" revision="android-4.4" />
-  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" remote="omnirom" revision="android-4.4" />
+  <project path="device/sony/msm8974-common" name="android_device_sony_msm8974-common" remote="omnirom" revision="android-5.0" />
   <project path="device/sony/fusion3-common" name="android_device_sony_fusion3-common" remote="omnirom" revision="android-4.4" />
   <project path="device/sony/blue-common" name="android_device_sony_blue-common" remote="omnirom" revision="android-4.4" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
